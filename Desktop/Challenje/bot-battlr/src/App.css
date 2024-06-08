@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.bot-collection {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.bot-army {
+  flex: 1;
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+
+h2 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #d9d9d9;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* YourBotArmy styling */
+.bot-army-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.bot-army-card img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.bot-army-card button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.bot-army-card button:last-child {
+  background-color: #dc3545;
+}
